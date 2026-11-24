@@ -122,3 +122,7 @@ CACHES = {
         "LOCATION":"redis://127.0.0.1:2222/2"
     }
 }
+
+
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
